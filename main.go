@@ -1,3 +1,13 @@
 package main
 
-func main(){}
+import (
+	"sentbon/getIP"
+)
+
+func main() {
+	//fmt.Println("Starting")
+
+	//utils.LocalAddresses()
+
+	getIP.ReadNIC()
+}
