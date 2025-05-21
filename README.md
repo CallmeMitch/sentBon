@@ -19,6 +19,13 @@ Appliquer éventuellement du NAT (translation d’adresse)
 4. Forwarder le paquet
 Réinjecter le paquet manuellement (ou via raw socket) sur l'interface de sortie.
 
-## Ressource
 
-https://medium.com/@isaiah941.it/packet-sniffing-in-go-basic-sniffer-script-with-net-package-1244de4554a6
+## Techno/Packages
+
+Frontend: React
+Backend: Golang
+
+Package golang utilisé :
+fmt, log, net
+
+
