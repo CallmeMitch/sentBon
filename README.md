@@ -19,15 +19,6 @@ Appliquer éventuellement du NAT (translation d’adresse)
 4. Forwarder le paquet
 Réinjecter le paquet manuellement (ou via raw socket) sur l'interface de sortie.
 
+## Ressource
 
-## Techno/Packages utiles
-
-gopacket – pour capturer et analyser les paquets
-
-raw socket (syscall ou via github.com/mdlayher/raw)
-
-netlink – pour interagir avec la table de routage Linux (optionnel)
-
-iptables/nftables – pour tester le comportement avec des règles système
-
-ebpf (optionnel mais sexy) – pour hooker le kernel (plus complexe)
+https://medium.com/@isaiah941.it/packet-sniffing-in-go-basic-sniffer-script-with-net-package-1244de4554a6
